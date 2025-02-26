@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>CrapMusic</title>
+        <meta charset="utf-8">
 
         <style>
             img {
@@ -8,8 +9,9 @@
                 height: 200px;
             }
 
-            body{
-                margin: 0;
+            body { 
+                margin: 0; /* Remove a margem padrão do body */
+                background-color: #eb820b;
             }
             
             .titulo{
@@ -19,6 +21,12 @@
                 background-color: #FF0000; /* Muda a cor de fundo */
                 padding: 10px; /* Adiciona um espaçamento interno */
             }
+
+            .album {
+                background-color: #fff;
+                padding: 10px;
+                margin: 10px;
+            }
         </style>
     </head>
     <body>
@@ -27,15 +35,26 @@
         <p>
             Abaixo os albums mais marcantes da decada de XX
         </p>
+        
+        <div class="album">
+            <a href="album_pra_curar.html">    
+                <img src="imagens/pra_curar.jpeg" alt="Capa Album Pra Curar">
+                <h3>Pra Curar</h3>
+            </a>
+        </div>
 
-        <a href="album_pra_curar.html">    
-            <img src="imagens/pra_curar.jpeg" alt="Capa Album Pra Curar">
-            <h3>Pra Curar</h3>
-        </a>
+        <div class="album">
+            <a href="album_tim_maia_1970.html">
+                <img src="imagens/Tim1970.jpg" alt="Capa Album Tim Maia 1970">
+                <h3>Tim Maia 1970</h3>
+            </a>
+        </div>
 
-        <a href="album_tim_maia_1970.html">
-            <img src="imagens/Tim1970.jpg" alt="Capa Album Tim Maia 1970">
-            <h3>Tim Maia 1970</h3>
-        </a>
+        <div class="album">
+            <a href="album_passos_gelatina_monstro.html">
+                <img src="imagens/irmaovictor.jpeg" alt="Capa Album Passos simples para transformar gelatina em um monstro">
+                <h3>Passos Simples para Transformar Gelatina em um Monstro</h3>
+            </a>
+        </div>
     </body>
 </html>
